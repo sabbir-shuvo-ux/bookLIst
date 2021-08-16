@@ -15,17 +15,17 @@ btn.addEventListener('click', function (e) {
     } else {
         var makeRow = document.createElement('tr');
 
-        var makeColume = document.createElement('th');
-        makeColume.innerHTML = title.value;
-        makeRow.appendChild(makeColume);
+        var makeTitle = document.createElement('th');
+        makeTitle.innerHTML = title.value;
+        makeRow.appendChild(makeTitle);
 
-        var makeColume = document.createElement('th');
-        makeColume.innerHTML = title.value;
-        makeRow.appendChild(makeColume);
+        var makeAuthor = document.createElement('th');
+        makeAuthor.innerHTML = author.value;
+        makeRow.appendChild(makeAuthor);
 
-        var makeColume = document.createElement('th');
-        makeColume.innerHTML = title.value;
-        makeRow.appendChild(makeColume);
+        var makeYear = document.createElement('th');
+        makeYear.innerHTML = year.value;
+        makeRow.appendChild(makeYear);
 
         bookList.appendChild(makeRow);
 
